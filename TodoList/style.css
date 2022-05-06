@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgba(174, 247, 253, 0.681);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    height:fit-content;
+    width: 100%;
+}
+.upper{
+    background-color:rgb(212, 2, 212);
+    height:fit-content;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper input, button{
+    outline:none !important;
+    padding: 5px;
+    font-size: 16px;
+    color: black;
+    border: none !important;
+}
+.upper input{
+    width: 100%;
+}
+.upper button{
+    background:rgb(90, 250, 255);
+    width: 20%;
+}
+.below{
+    width: 100%;
+}
+.below .todo div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.below .todo p,
+i {
+    font-size: 20px;
+    padding: 10px;
+}
+.below .todo div:hover{
+    background:blue;
+    color:white;
+}
+.below .todo div button{
+    background:none;
+}
+.fa-check{
+    margin-right: 20px;
+}
